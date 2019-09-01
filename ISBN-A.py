@@ -3,9 +3,9 @@
         Autor: Mohamad Shaftar
         01.09.2019 """
 
-eingabe = input("Bitte geben zehn Zahlen ein, zur Prüfung eine isbn Zahl: ") # Eingabe feld
+eingabe = input("Bitte geben neun Zahlen ein, zur Prüfung eine isbn Zahl: ") # Eingabe feld
 while len(eingabe) != 9: # Eingabe richtig oder falsch?
-    print("Bitte versuchen Sie nochmal. Geben Sie 10 Zahlen ein: ") # Eingabe wiederholen!
+    print("Bitte versuchen Sie nochmal. Geben Sie 9 Zahlen ein: ") # Eingabe wiederholen!
     eingabe = input('>> ')
     continue # Wenn die Einagabe richtig ist, soll weiter gehen
 else:
